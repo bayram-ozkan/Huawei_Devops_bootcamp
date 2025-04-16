@@ -45,7 +45,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: swr.ap-southeast-3.myhuaweicloud.com/devopsbootcamp/paymentservice:v1.1
+        image: swr.tr-west-1.myhuaweicloud.com/devops_training/paymentservice:latest
         ports:
         - containerPort: 50051
         env:

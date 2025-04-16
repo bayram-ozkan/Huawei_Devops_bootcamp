@@ -45,7 +45,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: swr.ap-southeast-3.myhuaweicloud.com/devopsbootcamp/recommendationservice:v1.1
+        image: swr.tr-west-1.myhuaweicloud.com/devops_training/recommendationservice:latest
         ports:
         - containerPort: 8080
         readinessProbe:

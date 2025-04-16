@@ -44,7 +44,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: swr.ap-southeast-3.myhuaweicloud.com/devopsbootcamp/shippingservice:v1.1
+        image: swr.tr-west-1.myhuaweicloud.com/devops_training/shippingservice:latest
         ports:
         - containerPort: 50051
         env:

@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: swr.ap-southeast-3.myhuaweicloud.com/devopsbootcamp/checkoutservice:v1.1
+          image: swr.tr-west-1.myhuaweicloud.com/devops_training/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:

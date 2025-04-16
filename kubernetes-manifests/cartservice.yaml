@@ -30,7 +30,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: swr.ap-southeast-3.myhuaweicloud.com/devopsbootcamp/cartservice:v1.1
+        image: swr.tr-west-1.myhuaweicloud.com/devops_training/cartservice:latest
         ports:
         - containerPort: 7070
         env:
