@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: redis:alpine
+        image: swr.tr-west-1.myhuaweicloud.com/devops_training/redis:latest
         ports:
         - containerPort: 6379
         readinessProbe:
